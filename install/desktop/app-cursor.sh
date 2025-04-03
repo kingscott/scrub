@@ -27,6 +27,7 @@ fi
 mkdir -p ~/.config/Code/User
 git clone https://github.com/kingscott/vscode.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/Code/User
 
-# Install Rose Pine theme automatically
-code --install-extension mvllow.rose-pine
 
+code --install-extension mvllow.rose-pine
+code --install-extension tobias-z.vscode-harpoon
+code --install-extension JoshMu.periscope
