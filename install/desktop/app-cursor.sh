@@ -27,7 +27,7 @@ fi
 mkdir -p ~/.config/Code/User
 git clone https://github.com/kingscott/vscode.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/Code/User
 
-
-code --install-extension mvllow.rose-pine
-code --install-extension tobias-z.vscode-harpoon
-code --install-extension JoshMu.periscope
+# TODO: Can Cursor install `code` programatically?
+#code --install-extension mvllow.rose-pine
+#code --install-extension tobias-z.vscode-harpoon
+#code --install-extension JoshMu.periscope
