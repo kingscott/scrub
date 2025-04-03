@@ -1,3 +1,7 @@
+# TODO: Do I want this?
+echo "Skipping default dev setup." >&2
+exit 1
+
 # Install default programming languages
 if [[ -v OMAKUB_FIRST_RUN_LANGUAGES ]]; then
   languages=$OMAKUB_FIRST_RUN_LANGUAGES
@@ -28,11 +32,6 @@ if [[ -n "$languages" ]]; then
       ;;
     Python)
       mise use --global python@latest
-      ;;
-    Elixir)
-      mise use --global erlang@latest
-      mise use --global elixir@latest
-      mise x elixir -- mix local.hex --force
       ;;
     Rust)
       bash -c "$(curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs)" -- -y

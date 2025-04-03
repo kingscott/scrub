@@ -1,3 +1,4 @@
+# TODO: Update to use Fira Mono nerd font
 mkdir -p ~/.local/share/fonts
 
 cd /tmp

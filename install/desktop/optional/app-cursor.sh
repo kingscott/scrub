@@ -22,3 +22,11 @@ if [ -f "$DESKTOP_FILE" ]; then
 else
 	echo "Failed to create cursor.desktop"
 fi
+
+# Setup configs as if you aren't using VS Code
+mkdir -p ~/.config/Code/User
+git clone https://github.com/kingscott/vscode.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/Code/User
+
+# Install Rose Pine theme automatically
+code --install-extension mvllow.rose-pine
+
