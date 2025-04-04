@@ -3,4 +3,4 @@ wget https://repo.protonvpn.com/debian/dists/stable/main/binary-all/protonvpn-st
 sudo dpkg -i ./protonvpn-stable-release_1.0.8_all.deb
 sudo apt update -y
 
-sudo apt install proton-vpn-gnome-desktop
+sudo apt install -y proton-vpn-gnome-desktop

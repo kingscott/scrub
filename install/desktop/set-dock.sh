@@ -1,13 +1,14 @@
 # Favorite apps for dock
 apps=(
-	"google-chrome.desktop"
+	"org.gnome.Nautilus.desktop"
+	"vivaldi-stable.desktop"
+	#"google-chrome.desktop"
 	"Neovim.desktop"
 	"Zoom.desktop"
 	"Activity.desktop"
-	"Docker.desktop"
+	#"Docker.desktop"
 	"Omakub.desktop"
 	"org.gnome.Settings.desktop"
-	"org.gnome.Nautilus.desktop"
 	"localsend_app.desktop"
 )
 
