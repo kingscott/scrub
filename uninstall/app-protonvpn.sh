@@ -1,0 +1,3 @@
+sudo apt autoremove proton-vpn-gnome-desktop 
+sudo apt purge protonvpn-stable-release
+

@@ -1,0 +1,5 @@
+font-size = 13
+
+config-file = font-config
+config-file = theme-config
+
