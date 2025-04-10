@@ -18,7 +18,7 @@ set_font() {
 
 	gsettings set org.gnome.desktop.interface monospace-font-name "$font_name 10"
 	# TODO: Fix font for ghostty
-	#cp "$OMAKUB_PATH/configs/alacritty/fonts/$file_name.toml" ~/.config/alacritty/font.toml
+	cp "$OMAKUB_PATH/configs/ghostty/fonts/$file_name" ~/.config/ghostty/font-config
 	sed -i "s/\"editor.fontFamily\": \".*\"/\"editor.fontFamily\": \"$font_name\"/g" ~/.config/Code/User/settings.json
 }
 
